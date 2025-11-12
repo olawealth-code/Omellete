@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+img{
+    width:100%;
+    border-radius: 10px;
+}
+.test{
+    font-family: outfit;
+}
+
+
+
+table{
+
+    border: 1px;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+tr{
+    border-bottom: 1px solid grey;    
+}
+
+body{
+    background-color: hsl(330, 100%, 98%);}
+
+ /* .class1{
+    margin-left: 115px;
+ } */
+
+ .class2{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ .class3{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding:10px ;
+    
+ }
+
+ #hhh{
+/* padding: 5px 5px 0px 5px; */
+/* font-size: small; */
+color: purple;
+font-size:15px;
+ }
+
+ #hhhh{
+    color: brown;
+    padding-bottom:-20px;
+ }
+
+ #pp{
+    color: brown;
+    padding-bottom: -20px;
+ }
+
+ #dd{
+    color: brown;
+
+ }
+
+ li{
+    padding-top: 10px ;
+ }
+
+
+ li::marker{
+    color: brown;
+ }
+td{
+    padding: 8px;
+}
+
+.uls{
+    margin-top: -20px ;
+}
+
+.lis{
+    margin: -10px;
+}
+
+/* .list1{
+    list-style:;
+    list-style:;
+} */
+
+
+@media screen and (max-width:426px) {
+    .class3{
+        width: 90%;
+        font-size: 13px;
+        /* border: 1px solid red; */
+    }
+}
