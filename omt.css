@@ -2,17 +2,18 @@
 
 
 
-img{
-    width:100%;
+img {
+    width: 100%;
     border-radius: 10px;
 }
-.test{
+
+.test {
     font-family: outfit;
 }
 
 
 
-table{
+table {
 
     border: 1px;
     border-collapse: collapse;
@@ -20,71 +21,73 @@ table{
 
 }
 
-tr{
-    border-bottom: 1px solid grey;    
+tr {
+    border-bottom: 1px solid grey;
 }
 
-body{
-    background-color: hsl(330, 100%, 98%);}
+body {
+    background-color: hsl(330, 100%, 98%);
+}
 
- /* .class1{
+/* .class1{
     margin-left: 115px;
  } */
 
- .class2{
+.class2 {
     background-color: white;
     width: 50%;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
- }
+}
 
- .class3{
+.class3 {
     background-color: hsl(330, 100%, 98%);
     border-radius: 5px;
-    padding:10px ;
-    
- }
+    padding: 10px;
 
- #hhh{
-/* padding: 5px 5px 0px 5px; */
-/* font-size: small; */
-color: purple;
-font-size:15px;
- }
+}
 
- #hhhh{
-    color: brown;
-    padding-bottom:-20px;
- }
+#hhh {
+    /* padding: 5px 5px 0px 5px; */
+    /* font-size: small; */
+    color: purple;
+    font-size: 15px;
+}
 
- #pp{
+#hhhh {
     color: brown;
     padding-bottom: -20px;
- }
+}
 
- #dd{
+#pp {
+    color: brown;
+    padding-bottom: -20px;
+}
+
+#dd {
     color: brown;
 
- }
+}
 
- li{
-    padding-top: 10px ;
- }
+li {
+    padding-top: 10px;
+}
 
 
- li::marker{
+li::marker {
     color: brown;
- }
-td{
+}
+
+td {
     padding: 8px;
 }
 
-.uls{
-    margin-top: -20px ;
+.uls {
+    margin-top: -20px;
 }
 
-.lis{
+.lis {
     margin: -10px;
 }
 
@@ -95,7 +98,7 @@ td{
 
 
 @media screen and (max-width:426px) {
-    .class3{
+    .class3 {
         width: 90%;
         font-size: 13px;
         /* border: 1px solid red; */
